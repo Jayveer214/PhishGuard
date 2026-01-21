@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+feedback.csv
+verified_data.csv
+spam_detector_model.pkl
+vectorizer.pkl
