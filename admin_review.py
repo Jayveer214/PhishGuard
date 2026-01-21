@@ -49,8 +49,7 @@ def review_feedback():
         print(f"\nSaved {len(approved_entries)} new verified examples.")
         
         if input("\nRetrain model now? (y/n): ").lower() == 'y':
-            # --- HERE IS THE MAGIC ---
-            # Instead of rewriting code, we just call the expert.
+            # Instead of rewriting code, we just call the function.
             training_model.train_system()
     
     # Clear the feedback file

@@ -11,26 +11,38 @@
 ## 🛠️ Installation
 
 1. **Clone the repo:**
-        git clone [https://github.com/YOUR-USERNAME/PhishGuard.git](https://github.com/YOUR-USERNAME/PhishGuard.git)
-        cd PhishGuard
+   ```bash
+   git clone https://github.com/Jayveer214/PhishGuard.git
+   ```
+   ```
+   cd PhishGuard
+   ```     
 
 2. **Create & Activate Virtual Environment:**
-        python -m venv .venv
-        - **macOS/Linux:** source .venv/bin/activate
-        - **Windows(Command Prompt):** .venv\Scripts\activate
-        - **Windows(PowerShell):** .venv\Scripts\Activate.ps1
+   ```bash
+   python -m venv .venv
+   ```
+   - **macOS/Linux:** ```source .venv/bin/activate```
+   - **Windows(Command Prompt):** ```.venv\Scripts\activate```
+   - **Windows(PowerShell):** ```.venv\Scripts\Activate.ps1```
 
 2. **Install dependencies:**
-        pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Initialize the Brain:**
-        python training_model.py
+   ```bash
+   python training_model.py
+   ```
 
 4. **Run the Interface:**
-        streamlit run app.py
+   streamlit run app.py
 
 5. **Review Feedback (Admin Only):**
-        python admin_review.py
+   ```bash
+   python admin_review.py
+   ```
 
 ## 🏗️ Architecture
         User Input -> Streamlit App -> Prediction -> Feedback -> Quarantine (CSV) -> Admin Verification -> Retraining
