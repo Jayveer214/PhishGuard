@@ -5,3 +5,4 @@ feedback.csv
 verified_data.csv
 spam_detector_model.pkl
 vectorizer.pkl
+.gitignore
